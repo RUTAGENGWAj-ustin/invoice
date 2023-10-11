@@ -1,0 +1,181 @@
+.container-det {
+          max-width: 700px;
+          margin: 0 auto;
+          padding: 20px;
+          
+          border-radius: 25px;
+          
+        }
+ .dit1{
+        
+          display: flex;
+ }
+ .dit2{
+          width: 50%;
+ }
+ .dit2 .h33{
+          margin-left: 250px;
+          color: #ebedf3;
+ }
+ .dit2 .as{
+          margin-left: 30px;
+ }
+ .go_back {
+          color:  #FFFFFF;
+          font-family: Spartan;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          letter-spacing: -.25px;
+          line-height: 15px;
+          margin: 0;
+      }
+.status-bar {
+          align-items: center;
+          background: #1E2139;
+          border-radius: 8px;
+          box-shadow: 0 10px 10px -10px rgba(72,84,159,.1);
+          box-sizing: border-box;
+          display: flex;
+          justify-content: space-between;
+          padding: 24px 32px;
+          width: 100%;
+          margin-bottom: 30px;
+      }
+      .status1 {
+          align-items: center;
+          display: flex;
+          gap: 16px;
+          justify-content: center;
+      }
+      .status1 label {
+          color: #DFE3FA;
+          font-family: Spartan;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          letter-spacing: -.25px;
+          line-height: 15px;
+          margin: 0;
+      }
+      .h3 {
+          background-color: transparent;
+          font-family: Spartan;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          letter-spacing: -.25px;
+          line-height: 15px;
+          margin: 0;
+      }
+      .status1 .edit {
+          background: #f9fafe;
+          border: 0;
+          border-radius: 24px;
+          color: #7e88c3;
+          font-family: Spartan;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          height: 48px;
+          letter-spacing: -.25px;
+          line-height: 15px;
+          width: 73px;
+      }
+      .delete {
+          background: #ec5757;
+          border: 0;
+          border-radius: 24px;
+          color: #fff;
+          font-family: Spartan;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          height: 48px;
+          letter-spacing: -.25px;
+          line-height: 15px;
+          width: 89px;
+      }
+      .mark_as_paid{
+          background: #7c5dfa;
+          border: 0;
+          border-radius: 24px;
+          color: #fff;
+          font-family: Spartan;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          height: 48px;
+          letter-spacing: -.25px;
+          line-height: 15px;
+          width: 131px;
+      }
+      .dit1-address {
+          background:#1E2139;
+          border-radius: 8px;
+          box-shadow: 0 10px 10px -10px rgba(72,84,159,.1);
+          box-sizing: border-box;
+          flex-direction: column;
+          gap: 42px;
+          justify-content: center;
+          padding: 32px;
+      }
+      .info__top-container {
+          align-items: flex-start;
+          display: flex;
+          width: 100%;
+          margin-bottom: 30px;
+      }
+      .items {
+          background:#252945;
+          border-radius: 8px 8px 0 0;
+          box-sizing: border-box;
+         
+          justify-content: center;
+          margin-bottom: 64px;
+          margin-top: 64px;
+          padding: 32px;
+          position: relative;
+          display: flex;
+      }
+      .info__bottom-container {
+          align-items: flex-start;
+          display: flex;
+          gap: 98px;
+          justify-content: flex-start;
+          width: 100%;
+      }
+      .info__text {
+          color: #DFE3FA;
+          font-size: 18px;
+          font-weight: 500;
+          letter-spacing: -.25px;
+          line-height: 15px;
+          max-width: 120px;
+          margin-top: 20px;
+      }
+      .info__title {
+          color: #FFFFFF;
+          font-size: 25px;
+          font-weight: 700;
+          letter-spacing: -.3125px;
+          line-height: 20px;
+      }
+      .info__title2{
+          color: #FFFFFF;
+          font-size: 20px;
+          font-weight: 700;
+          letter-spacing: -.3125px;
+          line-height: 20px;
+      }
+      .receipt__container {
+          align-items: flex-start;
+          display: flex;
+          justify-content: center;
+          width: 100%;
+      }
+      @media screen and (max-width : 1025px){
+        .f{
+            margin-top: 170px;
+        }
+      }

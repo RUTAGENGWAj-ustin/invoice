@@ -1,0 +1,138 @@
+.container-invo{
+          margin-left: 0;
+         
+}
+.con-invo{
+          z-index: -1;
+          display: block;
+          margin-top: 30px;
+          margin-left: 490px;
+
+}
+.con2-data{
+     margin-left: 20px;
+     display: flex; 
+     background-color:  #1E2139;
+     margin-bottom: 10px;
+     width: 750px;
+     border-radius: 10px;  
+     text-decoration: none;
+     height: 100px;
+}
+.con2-data:hover{
+    border: 1px solid #7C5DFA;
+}
+.con2-data-l{
+  margin-left: 20px;
+  display: flex; 
+  margin-bottom: 10px;
+
+
+  border-radius: 10px;  
+  text-decoration: none;
+  height: 100px;
+}
+p{
+  margin-left:0;
+  width: 130px;
+  padding:20px;
+  
+}
+.link{
+  color: rgb(213, 227, 232);
+  text-decoration: none;
+ 
+  margin-left: 10px;
+  padding-left: 30px;
+  padding-top: 20px;
+  width: 100px;
+}
+.big{
+  color: rgb(250, 247, 247);
+  font-size: 20px;
+  font-weight: bold;
+}
+.titles{
+  display: flex;
+  
+}
+.titles-1{
+display: block;
+width: 450px;
+margin-bottom: 40px;
+}
+.titles-x-h3{
+  color: white;
+}
+.titles-x{
+  margin-top: 20px;
+  margin-right: 20px;
+  color: white;
+}
+.titles-1 h1{
+color:  rgb(250, 247, 247);
+}
+.titles-1 h4{
+  color:  rgb(250, 247, 247);
+}
+
+
+
+
+.icon{
+ 
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #6A52D6;
+  margin-top: 30px;
+  margin-left: 10px;
+
+}
+.add{
+  width: 150px;
+  background-color: #7C5DFA;
+  color: #FEFEFE;
+  display: flex;
+}
+.rFormAdd{
+  background-color: wheat;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 7px;
+}
+.add h4{
+  margin-top: 5px;
+}
+.text.paid{
+  color: #33D69F;
+  background-color: #1F2C3F;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+}
+
+.text.pending{
+  color:#FF8F00;
+  background-color: #2B2736;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+}
+@media screen and (max-width : 1025px){
+  .container-invo{
+    margin-top: 20%;
+    margin-left: 0;
+    padding-left: 10px;
+}
+
+}
