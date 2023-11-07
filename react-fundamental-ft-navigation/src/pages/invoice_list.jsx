@@ -22,7 +22,7 @@ const List_invoice = (props)=>{
           return(
 
           <div className="container-invo">
-           {onpenform ?<Invioce/>:
+           {onpenform &&<Invioce/>}
           <div className="con-invo">
             <div className="titles"> 
               <div className="titles-1">
@@ -68,7 +68,7 @@ const List_invoice = (props)=>{
         </div>
                               </div>
                               
-          </div>}
+          </div>
 </div>
           );
           

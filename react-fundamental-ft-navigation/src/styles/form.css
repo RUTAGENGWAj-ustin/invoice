@@ -7,15 +7,16 @@
 .container_for {
   margin-left:110px;
   max-width: 700px;
- 
   padding: 20px;
   background-color:#1E2139;
   border-radius: 0 25px 25px 0;
-  z-index: 2;
+  z-index: 5;
+  position: absolute;
   
 }
 
 form {
+
   display: flex;
   flex-wrap: wrap;
 }
